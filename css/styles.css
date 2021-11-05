@@ -1,0 +1,436 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* NAV BAR */
+.header-container{
+	display: flex;
+	flex-flow: row, nowrap;
+}
+
+.header-logo {
+	width: 150px;
+	height: 65px;
+	border: #000 solid 2px;
+	border-radius: 10px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 1rem 0;
+	}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  li{
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+  }
+  li a:hover {
+	background-color: #111;
+  }
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+/* Text */
+body {
+	padding: .5rem ;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+p{
+	margin: 0 0 .5rem 0;
+	}
+
+.anim {
+	background-image: url(../img/carpet.jpg);
+	width: 450px;
+	height: 300px;
+	border: solid #000 1px;
+	margin:  1rem 1rem 1rem 0;
+	overflow: hidden;
+}
+section{
+	padding: .5rem;
+	line-height: 1.5rem;
+}
+footer{
+	font-size: .9rem;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 1.5rem;
+	background-color: #333;
+	color: #ffff;
+}
+/* IMG */
+/* end */
+.full_logo {
+	opacity: 100%;
+	top: 200px;
+	animation: end 60s ease forwards;
+}
+@keyframes end {
+	0%{
+		width: 0px;
+		height: auto;
+	}
+	79%{
+		width: 0px;
+		height: auto;
+	}
+	80%{
+		opacity: 100%;
+		width: 300px;
+		height: auto;
+		top: 10px;
+	}
+	100%{
+		opacity: 100%;
+		width: 300px;
+		height: auto;
+		top: 10px;
+	}
+}
+.head-on{
+	animation: end 60s ease forwards;
+}
+/* middle */
+.anim__clean {
+	animation: mid-text 60s ease forwards;
+}
+.emote {
+	animation: mid-emote 60s ease forwards;
+
+}
+
+@keyframes mid-text {
+	0%{
+		font-size: 0;
+	}
+	49%{
+		font-size: 0;
+	}
+	50%{
+		opacity: 100%;
+		font-size: 2rem;
+		top: 10px;
+	}
+	78%{
+		opacity: 100%;
+		font-size: 2rem;
+		top: 10px;
+	}
+	79%{
+		font-size: 0;
+	}
+	100%{
+		font-size: 0;
+	}
+}
+@keyframes mid-emote {
+	0%{
+		width: 0px;
+		height: auto;
+	}
+	49%{
+		width: 0px;
+		height: auto;
+	}
+	50%{
+		opacity: 100%;
+		width: 100px;
+		height: auto;
+	}
+	78%{
+		opacity: 100%;
+		width: 100px;
+		height: auto;
+
+	}
+	79%{
+		width: 0px;
+		height: auto;
+	}
+	100%{
+		width: 0px;
+		height: auto;
+	}
+}
+/* start */
+.start-display{
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	animation: start 60s ease forwards;
+	top: 10px;
+	left: 100px;
+}
+
+@keyframes start {
+	0%{
+		opacity: 0%;
+		font-size: 2rem;
+		top: 10px;
+		left: 100px;
+	}
+
+	5%{
+		opacity: 100%;
+		font-size: 4rem;
+		top: 10px;
+		left: 100px;
+	}
+
+	9% {
+		opacity: 0%;
+		font-size: 2rem;
+		top: 10px;
+		left: 100px;
+	}
+	100%{
+		opacity: 0%;
+		font-size: 2rem;
+		top: 10px;
+		left: 100px;
+	}
+}
+
+.cheerios_1{
+	position: relative;
+	width: 60px;
+	height: auto;
+	animation: cheerio1 60s ease forwards;
+}
+@keyframes cheerio1 {
+	0%{
+		opacity: 0%;
+	}
+
+	8%{
+		opacity: 0%;
+	}
+
+	9%{
+		opacity: 100%;
+	}
+
+	16% {
+		opacity: 100%;
+	}
+
+	17%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 0%;
+	}
+}
+.cheerios_2{
+	position: relative;
+	width: 50px;
+	height: auto;
+	top: 90px;
+	left: 15px;
+	animation: cheerio2 60s ease forwards;
+}
+@keyframes cheerio2 {
+	0%{
+		opacity: 0%;
+	}
+
+	8%{
+		opacity: 0%;
+	}
+
+	9%{
+		opacity: 100%;
+	}
+
+	25%{
+		opacity: 100%;
+	}
+
+	26%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 0%;
+	}
+}
+
+.cheerios_3{
+	position: relative;
+	width: 50px;
+	height: auto;
+	top: -60px;
+	right: 20px;
+	animation: cheerio3 60s ease forwards;
+}
+@keyframes cheerio3 {
+	0%{
+		opacity: 0%;
+	}
+	
+	8%{
+		opacity: 0%;
+	}
+
+	9%{
+		opacity: 100%;
+	}
+
+	28%{
+		opacity: 100%;
+	}
+
+	29% {
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 0%;
+	}
+}
+
+.cheerios_4{
+	position: relative;
+	width: 60px;
+	height: auto;
+	top: 20px;
+	left: 70px;
+	animation: cheerio4 60s ease forwards;
+}
+@keyframes cheerio4 {
+	0%{
+		opacity: 0%;
+	}
+	
+	8%{
+		opacity: 0%;
+	}
+
+
+	9%{
+		opacity: 100%;
+	}
+
+	36% {
+		opacity: 100%;
+	}
+
+	37%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 0%;
+	}
+}
+
+.cheerios_5{
+	position: relative;
+	width: 50px;
+	height: auto;
+	top: 120px;
+	right: 50px;
+	animation: cheerio5 60s ease forwards;
+}
+@keyframes cheerio5 {
+	0%{
+		opacity: 0%;
+	}
+	
+	8%{
+		opacity: 0%;
+	}
+
+
+	9%{
+		opacity: 100%;
+	}
+
+	10% {
+		opacity: 100%;
+	}
+
+	46%{
+		opacity: 100%;
+	}
+
+	47%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 0%;
+	}
+}
+
+.anim__roomba{
+	position: relative;
+	width: 70px;
+	height: auto;
+	top: 230px;
+	left: 60px;
+	animation: roomba-move 60s ease forwards;
+	z-index: 5;
+}
+@keyframes roomba-move {
+	0%{
+		top: 230px;
+		left: 60px;
+	}
+
+	10%{
+		top: 230px;
+		left: 60px;
+	}
+
+	20%{
+		top: -10px;
+		left: 70px;
+	}
+
+	25%{
+		top: 100px;
+		left: 150px;
+	}
+
+	30%{
+		top: -40px;
+		left: 160px;
+	}
+
+	40%{
+		top: 30px;
+		left: 310px;
+	}
+
+	50%{
+		top: 120px;
+		left: 250px;
+	}
+	55%{
+		opacity: 100%;
+		top: 300px;
+		left: 250px;
+	}
+	60%{
+		opacity: 0%;
+	}
+	100%{
+		opacity: 0%;
+	}
+}
